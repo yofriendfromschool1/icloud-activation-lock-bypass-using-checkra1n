@@ -8,7 +8,7 @@ brew install libimobiledevice
 iproxy 2222 44``
 ``ssh root@localhost -p 2222``
 ``alpine``
-``mount -o rw, union, update /``
+``mount -o rw,union,update /``
 ``rm -rf /Applications/Setup.app``
 ``uicache -p /Applications/Setup.app``
 ``killall backboardd``
